@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2C5657CD2C25BCA00097CEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5657CC2C25BCA00097CEC6 /* AppDelegate.swift */; };
 		2C5657CF2C25BCA00097CEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5657CE2C25BCA00097CEC6 /* SceneDelegate.swift */; };
-		2C5657D12C25BCA00097CEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5657D02C25BCA00097CEC6 /* ViewController.swift */; };
-		2C5657D42C25BCA00097CEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5657D22C25BCA00097CEC6 /* Main.storyboard */; };
 		2C5657D62C25BCA30097CEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5657D52C25BCA30097CEC6 /* Assets.xcassets */; };
 		2C5657D92C25BCA30097CEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5657D72C25BCA30097CEC6 /* LaunchScreen.storyboard */; };
+		2C5657E12C25BD120097CEC6 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5657E02C25BD120097CEC6 /* TutorialViewController.swift */; };
+		2C5657E32C25BD1E0097CEC6 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5657E22C25BD1E0097CEC6 /* TutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C5657C92C25BCA00097CEC6 /* navigationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5657CC2C25BCA00097CEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C5657CE2C25BCA00097CEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C5657D02C25BCA00097CEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C5657D32C25BCA00097CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C5657D52C25BCA30097CEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C5657D82C25BCA30097CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C5657DA2C25BCA30097CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5657E02C25BD120097CEC6 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		2C5657E22C25BD1E0097CEC6 /* TutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		2C5657CB2C25BCA00097CEC6 /* navigationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				2C5657E02C25BD120097CEC6 /* TutorialViewController.swift */,
 				2C5657CC2C25BCA00097CEC6 /* AppDelegate.swift */,
 				2C5657CE2C25BCA00097CEC6 /* SceneDelegate.swift */,
-				2C5657D02C25BCA00097CEC6 /* ViewController.swift */,
-				2C5657D22C25BCA00097CEC6 /* Main.storyboard */,
 				2C5657D52C25BCA30097CEC6 /* Assets.xcassets */,
 				2C5657D72C25BCA30097CEC6 /* LaunchScreen.storyboard */,
 				2C5657DA2C25BCA30097CEC6 /* Info.plist */,
+				2C5657E22C25BD1E0097CEC6 /* TutorialView.swift */,
 			);
 			path = navigationTutorial;
 			sourceTree = "<group>";
@@ -127,7 +127,6 @@
 			files = (
 				2C5657D92C25BCA30097CEC6 /* LaunchScreen.storyboard in Resources */,
 				2C5657D62C25BCA30097CEC6 /* Assets.xcassets in Resources */,
-				2C5657D42C25BCA00097CEC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5657D12C25BCA00097CEC6 /* ViewController.swift in Sources */,
+				2C5657E32C25BD1E0097CEC6 /* TutorialView.swift in Sources */,
 				2C5657CD2C25BCA00097CEC6 /* AppDelegate.swift in Sources */,
+				2C5657E12C25BD120097CEC6 /* TutorialViewController.swift in Sources */,
 				2C5657CF2C25BCA00097CEC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C5657D22C25BCA00097CEC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C5657D32C25BCA00097CEC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C5657D72C25BCA30097CEC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +288,6 @@
 				INFOPLIST_FILE = navigationTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +297,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = natanap.com.br.navigationTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +318,6 @@
 				INFOPLIST_FILE = navigationTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +327,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = natanap.com.br.navigationTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
