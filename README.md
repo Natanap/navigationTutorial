@@ -69,4 +69,5 @@ private func addHoleToMovableView(frame: CGRect) {
 ```
 # Result: 
 
-![Tela informativa](https://github.com/Natanap/navigationTutorial/assets/88171357/951a368d-3582-4a93-8594-3b8b671e2f15)
+![Gif animation](https://github.com/Natanap/navigationTutorial/assets/88171357/cb559fb5-af76-4501-913b-7ae8ae67cf91)
+
